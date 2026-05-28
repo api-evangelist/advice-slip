@@ -1,0 +1,32 @@
+aid: advice-slip
+name: Advice Slip
+description: "Generate random advice slips"
+url: http://api.adviceslip.com/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Personality"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Personality
+  - Public APIs
+apis:
+  - name: Advice Slip
+    description: "Generate random advice slips"
+    humanURL: http://api.adviceslip.com/
+    baseURL: http://api.adviceslip.com/
+    tags:
+      - Personality
+    properties:
+      - type: Documentation
+        url: http://api.adviceslip.com/
+common:
+  - type: Website
+    url: http://api.adviceslip.com/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
