@@ -39,7 +39,6 @@ apis:
   - name: Advice Slip
     description: "Generate random advice slips"
     humanURL: http://api.adviceslip.com/
-    baseURL: http://api.adviceslip.com/
     tags:
       - Personality
     properties:
